@@ -233,6 +233,32 @@ then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
 
 <!-- add the table here -->
+|timsort|quick_sorted|merge_sorted|
+|-------|------------|------------|
+| 4.88e-06 | 4.12e-06 | 3.50e-06|
+| 2.55e-06 | 1.27e-05 | 1.37e-05|
+| 2.32e-06 | 1.61e-05 | 1.63e-05|
+| 2.53e-06 | 3.24e-05 | 3.09e-05|
+| 3.31e-06 | 6.74e-05 | 8.24e-05|
+| 3.57e-06 | 1.54e-04 | 1.40e-04|
+| 5.26e-06 | 2.97e-04 | 3.10e-04|
+| 6.03e-06 | 7.37e-04 | 7.02e-04|
+| 9.91e-06 | 1.46e-03 | 1.50e-03|
+| 1.89e-05 | 3.37e-03 | 3.53e-03|
+| 3.45e-05 | 7.01e-03 | 7.97e-03|
+| 7.17e-05 | 1.54e-02 | 1.69e-02|
+| 1.66e-04 | 3.34e-02 | 3.74e-02|
+| 3.14e-04 | 7.11e-02 | 7.98e-02|
+| 6.57e-04 | 1.56e-01 | 1.76e-01|
+| 1.39e-03 | 2.85e-01 | 3.29e-01|
+| 2.76e-03 | 6.91e-01 | 8.04e-01|
+| 5.80e-03 | 1.43e+00 | 1.74e+00|
+| 1.51e-02 | 3.16e+00 | 3.53e+00|
+| 2.36e-02 | 6.36e+00 | 7.54e+00|
+| 4.84e-02 | 1.35e+01 | 1.60e+01|
+| 9.37e-02 | 2.86e+01 | 3.41e+01|
+| 1.90e-01 | 5.97e+01 | 7.13e+01|
+| 3.71e-01 | 1.19e+02 | 1.43e+02|
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
